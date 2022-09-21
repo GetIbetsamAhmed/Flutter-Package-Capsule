@@ -44,3 +44,29 @@ Navigator.push(context, PageTransition(type: PageTransitionType.topToBottomPop, 
 
 Navigator.push(context, PageTransition(type: PageTransitionType.bottomToTopPop, child: DetailScreen(), childCurrent: this));
 ```
+<br>
+## FLUTTER_RECIPE_PACKAGE # 2 ( Zoom Widget )
+With this widget you can create a customizable canvas in which you can zoom in flutter.
+<br>Installing command
+```bash
+zoom_widget: ^2.0.0 | "any"
+```
+Than you can use it with below examples.
+```
+Zoom(
+  backgroundColor: Colors.white,
+  initTotalZoomOut: true,
+  child: Center(
+    child: Image(
+      image: NetworkImage("https://ichef.bbci.co.uk/news/640/cpsprodpb/C120/production/_104304494_mediaitem104304493.jpg"),
+      fit: BoxFit.cover,
+      frameBuilder: (context, child, frame, wasSynchronouslyLoaded) {
+        return Padding(
+          padding: const EdgeInsets.all(0.0),
+          child: wasSynchronouslyLoaded ? child : child,
+        );
+      },
+    ),
+  ),
+),
+```
