@@ -44,7 +44,7 @@ Navigator.push(context, PageTransition(type: PageTransitionType.topToBottomPop, 
 
 Navigator.push(context, PageTransition(type: PageTransitionType.bottomToTopPop, child: DetailScreen(), childCurrent: this));
 ```
-<br>
+
 ## FLUTTER_RECIPE_PACKAGE # 2 ( Zoom Widget )
 With this widget you can create a customizable canvas in which you can zoom in flutter.
 <br>Installing command
