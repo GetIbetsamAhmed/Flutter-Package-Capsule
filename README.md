@@ -70,3 +70,30 @@ Zoom(
   ),
 ),
 ```
+It is really easy to use! You should ensure that you add the Reorderable ListView as a dependency in your flutter project.
+<br>Installing command
+```bash
+reorderable_grid_view: ^2.2.5
+```
+Than you can use it with below examples.
+```
+ReorderableGridView.count(
+  crossAxisSpacing: 10,
+  mainAxisSpacing: 10,
+  crossAxisCount: 3,
+  children: this.data.map((e) => buildItem("$e")).toList(),
+  onReorder: (oldIndex, newIndex) {
+    setState(() {
+      final element = data.removeAt(oldIndex);
+      data.insert(newIndex, element);
+    });
+  },
+  footer: [
+    Card(
+      child: Center(
+        child: Icon(Icons.add),
+      ),
+    ),
+  ],
+);
+```
