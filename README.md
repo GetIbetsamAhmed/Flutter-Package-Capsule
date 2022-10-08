@@ -1,4 +1,4 @@
-## FLUTTER_RECIPE_PACKAGE # 1 ( Page Transaction )
+## FLUTTER_RECIPE_PACKAGE No. 1 ( Page Transaction )
 It is really easy to use! You should ensure that you add the page_transition as a dependency in your flutter project.
 <br>Installing command
 ```bash
@@ -45,7 +45,7 @@ Navigator.push(context, PageTransition(type: PageTransitionType.topToBottomPop, 
 Navigator.push(context, PageTransition(type: PageTransitionType.bottomToTopPop, child: DetailScreen(), childCurrent: this));
 ```
 
-## FLUTTER_RECIPE_PACKAGE # 2 ( Zoom Widget )
+## FLUTTER_RECIPE_PACKAGE No. 2 ( Zoom Widget )
 With this widget you can create a customizable canvas in which you can zoom in flutter.
 <br>Installing command
 ```bash
@@ -97,4 +97,4 @@ ReorderableGridView.count(
   ],
 );
 ```
-## FLUTTER_RECIPE_PACKAGE # 3 ( Video calling ) soon
+## FLUTTER_RECIPE_PACKAGE No. 3 ( Video calling ) soon
