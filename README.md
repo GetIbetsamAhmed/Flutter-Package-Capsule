@@ -1,4 +1,4 @@
-## FLUTTER_RECIPE_PACKAGE No. 1 ( Page Transactions )
+## FLUTTER_RECIPE_PACKAGE No. 1 (  Page Transactions  )
 It is really easy to use! You should ensure that you add the page_transition as a dependency in your flutter project.
 <br>Installing command
 ```bash
